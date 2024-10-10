@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7654d175-d6b9-45be-a8ff-09a6f14ecd3c" name="Changes" comment="add csv_repository.py">
+    <list default="true" id="7654d175-d6b9-45be-a8ff-09a6f14ecd3c" name="Changes" comment="add route accidents_by_date_and_beat">
       <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/accidents_route.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/load_data_route.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/accidents_repo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/accidents_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/loat_data.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/services/utils.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/accidents_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/accidents_route.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/accidents_repo.py" beforeDir="false" afterPath="$PROJECT_DIR$/repository/accidents_repo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repository/csv_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/repository/csv_repository.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,45 +31,45 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "michael-swisa"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;michael-swisa&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/michael-swisa/Chicago_Car_Accidents.git",
-    "accountId": "39713db4-62b2-4f81-82fe-546375c84667"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/michael-swisa/Chicago_Car_Accidents.git&quot;,
+    &quot;accountId&quot;: &quot;39713db4-62b2-4f81-82fe-546375c84667&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2nEbUcEKecM8wxj6c6R7MdGKbpd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Flask server.Chicago_Car_Accidents.executor": "Run",
-    "Flask server.Flask (app.py).executor": "Run",
-    "Python.accidents_repo.executor": "Run",
-    "Python.csv_repository.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/_kodcode2/second_half/Python/Chicago_Car_Accidents/repository",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Flask server.Chicago_Car_Accidents.executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Flask (app.py).executor&quot;: &quot;Run&quot;,
+    &quot;Python.accidents_repo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.csv_repository.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/_kodcode2/second_half/Python/Chicago_Car_Accidents/repository&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\_kodcode2\second_half\Python\Chicago_Car_Accidents\repository" />
@@ -83,7 +78,7 @@
       <recent name="C:\_kodcode2\second_half\Python\Chicago_Car_Accidents\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.accidents_repo">
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
     <configuration name="accidents_repo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Chicago_Car_Accidents" />
       <option name="ENV_FILES" value="" />
@@ -148,9 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.accidents_repo" />
         <item itemvalue="Python.csv_repository" />
-        <item itemvalue="Flask server.Flask (app.py)" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728541198890</updated>
-      <workItem from="1728541204898" duration="21548000" />
+      <workItem from="1728541204898" duration="23834000" />
     </task>
     <task id="LOCAL‎-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -196,7 +191,71 @@
       <option name="project" value="LOCAL‎" />
       <updated>1728549108560</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎-00004" summary="Update of the tables">
+      <option name="closed" value="true" />
+      <created>1728567464042</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1728567464042</updated>
+    </task>
+    <task id="LOCAL‎-00005" summary="Update of fanction get_sum_accidents_by_beat">
+      <option name="closed" value="true" />
+      <created>1728567521909</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1728567521909</updated>
+    </task>
+    <task id="LOCAL‎-00006" summary="Update of fanction get_sum_accidents_by_beat">
+      <option name="closed" value="true" />
+      <created>1728568112566</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1728568112566</updated>
+    </task>
+    <task id="LOCAL‎-00007" summary="add fanction count_accidents_by_week_and_beat">
+      <option name="closed" value="true" />
+      <created>1728568220582</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL‎-00007" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1728568220582</updated>
+    </task>
+    <task id="LOCAL‎-00008" summary="add fanction count_accidents_by_month_from_date">
+      <option name="closed" value="true" />
+      <created>1728568259955</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL‎-00008" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1728568259956</updated>
+    </task>
+    <task id="LOCAL‎-00009" summary="add route accidents_route.py">
+      <option name="closed" value="true" />
+      <created>1728568341614</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1728568341614</updated>
+    </task>
+    <task id="LOCAL‎-00010" summary="add load date">
+      <option name="closed" value="true" />
+      <created>1728568411533</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL‎-00010" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1728568411533</updated>
+    </task>
+    <task id="LOCAL‎-00011" summary="add route accidents_by_date_and_beat">
+      <option name="closed" value="true" />
+      <created>1728568498735</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL‎-00011" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1728568498735</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,12 +276,19 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="add data csv &#10;and create dires" />
     <MESSAGE value="add csv_repository.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add csv_repository.py" />
+    <MESSAGE value="Update of the tables" />
+    <MESSAGE value="Update of fanction get_sum_accidents_by_beat" />
+    <MESSAGE value="add fanction count_accidents_by_week_and_beat" />
+    <MESSAGE value="add fanction count_accidents_by_month_from_date" />
+    <MESSAGE value="add route accidents_route.py" />
+    <MESSAGE value="add load date" />
+    <MESSAGE value="add route accidents_by_date_and_beat" />
+    <option name="LAST_COMMIT_MESSAGE" value="add route accidents_by_date_and_beat" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Chicago_Car_Accidents$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1728566039897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Chicago_Car_Accidents$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1728569736691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Chicago_Car_Accidents$Chicago_Car_Accidents.coverage" NAME="Chicago_Car_Accidents Coverage Results" MODIFIED="1728550605013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Chicago_Car_Accidents$csv_repository.coverage" NAME="csv_repository Coverage Results" MODIFIED="1728566522870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/repository" />
-    <SUITE FILE_PATH="coverage/Chicago_Car_Accidents$accidents_repo.coverage" NAME="accidents_repo Coverage Results" MODIFIED="1728567105595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/repository" />
+    <SUITE FILE_PATH="coverage/Chicago_Car_Accidents$accidents_repo.coverage" NAME="accidents_repo Coverage Results" MODIFIED="1728569670065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/repository" />
   </component>
 </project>

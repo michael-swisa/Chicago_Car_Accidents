@@ -14,7 +14,7 @@ def init_chicago_db():
     Accidents.drop()
     Injuries.drop()
 
-    for row in read_csv('../data/Traffic_Crashes_-_Crashes - 20k rows.csv'):
+    for row in read_csv('./data/Traffic_Crashes_-_Crashes - 20k rows.csv'):
         location = {
             'STREET_NO': row['STREET_NO'],
             'STREET_DIRECTION': row['STREET_DIRECTION'],
@@ -91,5 +91,3 @@ def init_chicago_db():
 
 def create_indexes():
     Accidents.create_index('LOCATION.BEAT_OF_OCCURRENCE')
-
-init_chicago_db()

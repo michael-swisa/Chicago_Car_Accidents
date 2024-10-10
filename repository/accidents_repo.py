@@ -46,3 +46,18 @@ def count_accidents_by_month_from_date(beat, start_date):
         }
     })
     return count
+
+
+def group_accident_by_cause(beat):
+    result = Accidents.aggregate([
+        {'$match': {
+                'LOCATION.BEAT_OF_OCCURRENCE': beat }
+        },
+        {'$group': {
+                '_id': '$PRIM_CONTRIBUTORY_CAUSE',
+                'count': {
+                    '$sum': 1 }
+            }
+        }
+    ])
+    return list(result)
