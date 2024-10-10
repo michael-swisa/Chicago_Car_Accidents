@@ -5,4 +5,3 @@ client = MongoClient(MongoC)
 chicago_db = client[db_name]
 
 Accidents = chicago_db['Accidents']
-Injuries = chicago_db['Injuries']
