@@ -63,7 +63,7 @@ def group_accident_by_cause(beat):
     return list(result)
 
 def get_injured_statistics(beat):
-    total_injured = Accidents.find({'LOCATION_ID.BEAT_OF_OCCURRENCE': beat})
+    total_injured = Accidents.find({'LOCATION.BEAT_OF_OCCURRENCE': beat})
     count = 0
     count2 = 0
     for i in list(total_injured):

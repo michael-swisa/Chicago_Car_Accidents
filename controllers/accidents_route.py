@@ -37,3 +37,11 @@ def group_by_beat(beat):
         'beat': beat,
         'result': result
     }), 200
+
+@bp_accident.route('/statistics/<string:beat>', methods=['GET'])
+def statistics_by_beat(beat):
+    result = get_injured_statistics(beat)
+    return jsonify({
+        'beat': beat,
+        'result': result
+    }), 200
