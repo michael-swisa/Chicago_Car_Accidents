@@ -8,7 +8,6 @@ def get_sum_accidents_by_beat(beat):
     return result
 
 
-
 def count_accidents_by_day_and_beat(beat, date):
     count = Accidents.count_documents({
         'LOCATION.BEAT_OF_OCCURRENCE': beat,
@@ -47,5 +46,3 @@ def count_accidents_by_month_from_date(beat, start_date):
         }
     })
     return count
-
-
