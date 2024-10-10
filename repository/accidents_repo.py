@@ -32,3 +32,20 @@ def count_accidents_by_week_and_beat(beat, start_date):
     return count
 
 
+def count_accidents_by_month_from_date(beat, start_date):
+    start_date_obj = datetime.strptime(start_date, "%m/%d/%Y")
+    month_start = start_date_obj.replace(day=1)
+    if start_date_obj.month == 12:
+        month_end = month_start.replace(year=start_date_obj.year + 1, month=1)
+    else:
+        month_end = month_start.replace(month=start_date_obj.month + 1)
+    count = Accidents.count_documents({
+        'LOCATION.BEAT_OF_OCCURRENCE': beat,
+        'DATES.CRASH_DATE': {
+            '$gte': month_start.strftime("%m/%d/%Y"),
+            '$lt': month_end.strftime("%m/%d/%Y")
+        }
+    })
+    return count
+
+
