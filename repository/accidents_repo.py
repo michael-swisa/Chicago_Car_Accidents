@@ -77,4 +77,4 @@ def get_injured_statistics(beat):
 
     no_ded = count - count2
 
-    return {'count': count, 'count2': count2, 'no_ded': no_ded}
+    return {'total_injured': count, 'injuries_fatal': count2, 'no_ded': no_ded}
